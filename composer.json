@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourquote",
+    "description": "Magento 2 Request for Quote extension allows visitors to send a quotation request for particular product to the site owner. Allow your clients to contact you better than ever.",
+    "type": "magento2-module",
+    "version": "2.1.5",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourquote\\": ""
+        }
+    }
+}
